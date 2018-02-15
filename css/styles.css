@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial Black', sans-serif;
+    background-color: #2063b9;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+    background: #000000;
+    color: #1e0cbd;
+    width: 60%;
+    margin: 1% auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+form {
+    width: 75%;
+    text-align: center;
+    margin: 2% auto 0 auto;
+    display: block;
+    padding: 1%;
+}
+
+input {
+    background-color: #000000;
+    color: #8bffd5;
+}
+
+button {
+    background-color: #000000;
+    color: #8bffd5;
+}
+
+.captcha-class {
+    padding: 3%;
+}
+
+#prove {
+    padding-bottom: 1%;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.6em;
+    color: #ffffff;
+}
+
+#tagging {
+    background-color: #000000;
+    padding: 2.5% 0 2.5% 0;
+    margin-bottom: 5%;
+    width: 95%;
+    margin-top: 0;
+}
+
+#validation {
+    background-color: #000000;
+    padding: 2.5% 0 .5% 0;
+    margin-bottom: 5%;
+    width: 95%;
+}
+#tag {
+    text-transform: uppercase;
+    width: 50%;
+    border: 5px double #1e05ac;
+    padding: 1%;
+}
+
+#tag-label {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#tag-input {
+    font-size: 1.3em;
+}
+
+#captcha {
+    width: 10%;
+    padding: 1%;
+    border: 5px double #2a02bb;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#captcha-input {
+    font-size: 1.3em;
+}
+
+#captcha-label {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#loader {
+    font-style: italic;
+    font-size: 1.8em;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+#feedback {
+    font-style: italic;
+    font-size: 5em;
+    color: #ff0000;
+    font-weight: bold;
+    background-color: #000000;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#submit {
+    font-size: 1.1em;
+    padding: 1%;
+    height: 75%;
+    width: 15%;
+    border: 4px outset #3b02be;
+}
+
+#submit:hover {
+    height: 100%;
+    width: 18%;
+    background-color: #30c43c;
+    color: #000000;
+    border-color: #2804ca;
+}
+
+#reset-button {
+    font-size: 1.1em;
+    padding: 1%;
+    margin-bottom: 0;
+    height: 75%;
+    width: 15%;
+    border: 4px outset #3300ac;
+}
+
+#reset-button:hover {
+    height: 100%;
+    width: 18%;
+    background-color: #4f5a59;
+    color: #2637cd;
+    border-color: #0915c2;
+}
+
+#gif {
+    border: 5px double #000000;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
